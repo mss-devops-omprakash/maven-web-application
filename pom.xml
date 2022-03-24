@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://ec2-3-128-246-106.us-east-2.compute.amazonaws.com:9000/</sonar.host.url>
-                <sonar.login>4ceed437452aa3b01f5f92d7106523d2bcba7992</sonar.login>
+		<sonar.host.url>http://ec2-18-216-202-153.us-east-2.compute.amazonaws.com:9000/</sonar.host.url>
+                <sonar.login>c5c8c3b225cea08b3b7b255efcc394bcea6a1282</sonar.login>
 		<!-- <sonar.password>passw0rd</sonar.password> -->
              
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,14 +45,14 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-                <!--
+                
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-                -->
+                
 
 		<dependency>
 			<groupId>org.mockito</groupId>
