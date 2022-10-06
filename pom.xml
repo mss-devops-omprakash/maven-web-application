@@ -21,14 +21,16 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://ec2-18-216-202-153.us-east-2.compute.amazonaws.com:9000/</sonar.host.url>
-                <sonar.login>c5c8c3b225cea08b3b7b255efcc394bcea6a1282</sonar.login>
+		<sonar.host.url>http://3.109.32.84:9000/</sonar.host.url>
+		<sonar.login>squ_1b3ade20a5e1446c040ad34803cf5c26e01f9892</sonar.login>
 		<!-- <sonar.password>passw0rd</sonar.password> -->
              
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+	
+
 
 	<dependencies>
 		
@@ -96,19 +98,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-3-138-178-181.us-east-2.compute.amazonaws.com:8081/repository/facebook-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-3-138-178-181.us-east-2.compute.amazonaws.com:8081/repository/facebook-snapshot/</url>
-	    </snapshotRepository>
-	    
+		<repository>
+			<id>nexus</id>
+			<name>om-mss-maven-standalone-application-release</name>
+			<url>http://172.31.41.47:8081/repository/om-mss-maven-web-applicaton-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>om-mss-maven-standalone-application-snapshot</name>
+			<url>http://172.31.41.47:8081/repository/om-mss-maven-web-applicaton/</url>
+		</snapshotRepository>
 	</distributionManagement>
 	
 	<build>
