@@ -100,12 +100,12 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<name>om-mss-maven-standalone-application-release</name>
+			<name>om-mss-maven-web-application-release</name>
 			<url>http://172.31.41.47:8081/repository/om-mss-maven-web-applicaton-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>om-mss-maven-standalone-application-snapshot</name>
+			<name>om-mss-maven-web-application</name>
 			<url>http://172.31.41.47:8081/repository/om-mss-maven-web-applicaton/</url>
 		</snapshotRepository>
 	</distributionManagement>
